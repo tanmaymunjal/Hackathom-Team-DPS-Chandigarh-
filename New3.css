@@ -1,0 +1,47 @@
+.links:hover {
+   color :#4eff36;
+}
+
+.links {
+   text-align : center;
+
+}
+
+body {
+   background-image : url(ad.jpg);
+   background-repeat : no-repeat;
+   background-size: cover;
+
+}
+
+.login {
+   text-align : center;
+   font-size : large;
+   
+}
+
+.login:hover {
+   color :#fff64a;
+}
+
+
+
+#para {
+   text-align : center;
+   font-family: Arial, Helvetica, sans-serif;
+   font-color: #4eff5a;
+}
+
+#para2 {
+   text-align : center;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+#para3 {
+   text-align : center;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+   display : none;
+}
