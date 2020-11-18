@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Signed in
+</title>
+<style>
+head,body{
+background-image:url("download.jpg");
+color:white;
+}
+</style>
+<script>
+function a(){
+var hello = document.getElementById("o");
+if(hello.value!=""){
+document.getElementById("o").style.visibility="hidden";
+};
+if(hello.value==""){
+alert("Please give us some feedback");
+};
+}
+
+</script>
+</head>    
+<body><br><br><br><br><br><br>
+<p> Your form has been submitted and your number has been shared.The number of the nearest person who wishes to workout at the same time at the same time at a similar location is 785072859393794 </p>
+<form onSubmit="a();" method="post" id="o">
+If you have any feedback,please fill it here:<br><textarea rows="25" cols="50" id="in"> </textarea><br>
+<input  type="submit" value="Submit"></input>
+</form>
+</body>
+</html>
